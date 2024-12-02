@@ -1,0 +1,96 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    
+    background-color: #121212;
+    color: #E0E0E0;
+}
+.todo{
+    width: 550px;
+    border-radius: 3%;
+
+    background-color: #2e2e2e;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+h1{
+    margin: 5px 0 20px 0;
+    color: #13c3cc;
+}
+.sub{
+    margin-bottom: 15px;
+}
+.sub1, .sub2{
+    margin-bottom: 8px;
+}
+
+.sub, .sub1, .sub2 {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    width: 100%;
+}
+
+table th{
+    font-size: 30px;
+}
+table, th, td {
+    border:none;
+}
+tbody{
+    font-size: 20px;
+}
+table{
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.btndel{
+    margin: 15px;
+    cursor: pointer;
+}
+td{
+    padding: 10px 30px 10px 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.change{
+    color: #00ADB5;
+}
+.change1{
+    color: rgb(0, 0, 0);
+}
+label input{
+    background-color: #1a1919;
+    color: #E0E0E0;
+    border: 1px solid #393939;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 7px;
+}
+label input::placeholder {
+    color: #A0A0A0;
+}
