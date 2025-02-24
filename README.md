@@ -1,6 +1,6 @@
 # ✅ Todo List
 
-A simple **Todo List** built using **HTML, CSS, and JavaScript**, allowing users to add, remove and mark tasks. 
+A simple **Todo List** built using **HTML, CSS, and JavaScript**, allowing users to add, remove and mark tasks if required. 
 
 ## 🌍 Live Demo  
 [Click here to view the project](https://sepuripavan.github.io/Todo-list/)
