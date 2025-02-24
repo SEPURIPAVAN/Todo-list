@@ -1,5 +1,7 @@
 //after u lern do taht s.no, thing
 //add alert
+//cursor from one input to other
+//add key typingfeature
 let btnadd=document.querySelector(".sub")
 let ip=document.querySelector(".add")
 let ip2=document.querySelector(".comp")
